@@ -24,7 +24,6 @@ namespace JogoDaForcaForms
 
         public string mensagemFinal;
 
-
         public Forca()
         {
             mensagemFinal = "";
@@ -33,8 +32,6 @@ namespace JogoDaForcaForms
 
             erros = 0;
         }
-
-       
 
         public bool JogadorAcertou(char palpite)
         {

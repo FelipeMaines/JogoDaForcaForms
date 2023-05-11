@@ -55,11 +55,14 @@
             btnF = new Button();
             btnZ = new Button();
             btnY = new Button();
+            imagemForca = new PictureBox();
+            botaoReset = new Button();
+            ((System.ComponentModel.ISupportInitialize)imagemForca).BeginInit();
             SuspendLayout();
             // 
             // caixaPalavra
             // 
-            caixaPalavra.Location = new Point(285, 63);
+            caixaPalavra.Location = new Point(430, 178);
             caixaPalavra.Name = "caixaPalavra";
             caixaPalavra.Size = new Size(156, 23);
             caixaPalavra.TabIndex = 0;
@@ -67,7 +70,7 @@
             // 
             // btnA
             // 
-            btnA.Location = new Point(123, 182);
+            btnA.Location = new Point(308, 221);
             btnA.Name = "btnA";
             btnA.Size = new Size(75, 42);
             btnA.TabIndex = 2;
@@ -77,7 +80,7 @@
             // 
             // btnM
             // 
-            btnM.Location = new Point(123, 278);
+            btnM.Location = new Point(470, 321);
             btnM.Name = "btnM";
             btnM.Size = new Size(75, 42);
             btnM.TabIndex = 3;
@@ -87,7 +90,7 @@
             // 
             // btnG
             // 
-            btnG.Location = new Point(123, 230);
+            btnG.Location = new Point(389, 273);
             btnG.Name = "btnG";
             btnG.Size = new Size(75, 42);
             btnG.TabIndex = 4;
@@ -97,7 +100,7 @@
             // 
             // btnS
             // 
-            btnS.Location = new Point(123, 326);
+            btnS.Location = new Point(551, 369);
             btnS.Name = "btnS";
             btnS.Size = new Size(75, 42);
             btnS.TabIndex = 5;
@@ -107,7 +110,7 @@
             // 
             // btnT
             // 
-            btnT.Location = new Point(204, 326);
+            btnT.Location = new Point(632, 369);
             btnT.Name = "btnT";
             btnT.Size = new Size(75, 42);
             btnT.TabIndex = 9;
@@ -117,7 +120,7 @@
             // 
             // btnH
             // 
-            btnH.Location = new Point(204, 230);
+            btnH.Location = new Point(470, 273);
             btnH.Name = "btnH";
             btnH.Size = new Size(75, 42);
             btnH.TabIndex = 8;
@@ -127,7 +130,7 @@
             // 
             // btnN
             // 
-            btnN.Location = new Point(204, 278);
+            btnN.Location = new Point(551, 321);
             btnN.Name = "btnN";
             btnN.Size = new Size(75, 42);
             btnN.TabIndex = 7;
@@ -137,7 +140,7 @@
             // 
             // btnB
             // 
-            btnB.Location = new Point(204, 182);
+            btnB.Location = new Point(389, 221);
             btnB.Name = "btnB";
             btnB.Size = new Size(75, 42);
             btnB.TabIndex = 6;
@@ -147,7 +150,7 @@
             // 
             // btnU
             // 
-            btnU.Location = new Point(285, 326);
+            btnU.Location = new Point(308, 417);
             btnU.Name = "btnU";
             btnU.Size = new Size(75, 42);
             btnU.TabIndex = 13;
@@ -157,7 +160,7 @@
             // 
             // btnI
             // 
-            btnI.Location = new Point(285, 230);
+            btnI.Location = new Point(551, 273);
             btnI.Name = "btnI";
             btnI.Size = new Size(75, 42);
             btnI.TabIndex = 12;
@@ -167,7 +170,7 @@
             // 
             // btnO
             // 
-            btnO.Location = new Point(285, 278);
+            btnO.Location = new Point(632, 321);
             btnO.Name = "btnO";
             btnO.Size = new Size(75, 42);
             btnO.TabIndex = 11;
@@ -177,7 +180,7 @@
             // 
             // btnC
             // 
-            btnC.Location = new Point(285, 182);
+            btnC.Location = new Point(470, 221);
             btnC.Name = "btnC";
             btnC.Size = new Size(75, 42);
             btnC.TabIndex = 10;
@@ -187,7 +190,7 @@
             // 
             // btnV
             // 
-            btnV.Location = new Point(366, 326);
+            btnV.Location = new Point(389, 417);
             btnV.Name = "btnV";
             btnV.Size = new Size(75, 42);
             btnV.TabIndex = 17;
@@ -197,7 +200,7 @@
             // 
             // btnJ
             // 
-            btnJ.Location = new Point(366, 230);
+            btnJ.Location = new Point(632, 273);
             btnJ.Name = "btnJ";
             btnJ.Size = new Size(75, 42);
             btnJ.TabIndex = 16;
@@ -207,7 +210,7 @@
             // 
             // btnP
             // 
-            btnP.Location = new Point(366, 278);
+            btnP.Location = new Point(308, 369);
             btnP.Name = "btnP";
             btnP.Size = new Size(75, 42);
             btnP.TabIndex = 15;
@@ -217,7 +220,7 @@
             // 
             // btnD
             // 
-            btnD.Location = new Point(366, 182);
+            btnD.Location = new Point(551, 221);
             btnD.Name = "btnD";
             btnD.Size = new Size(75, 42);
             btnD.TabIndex = 14;
@@ -227,7 +230,7 @@
             // 
             // btnW
             // 
-            btnW.Location = new Point(447, 326);
+            btnW.Location = new Point(470, 417);
             btnW.Name = "btnW";
             btnW.Size = new Size(75, 42);
             btnW.TabIndex = 21;
@@ -237,7 +240,7 @@
             // 
             // btnK
             // 
-            btnK.Location = new Point(447, 230);
+            btnK.Location = new Point(308, 321);
             btnK.Name = "btnK";
             btnK.Size = new Size(75, 42);
             btnK.TabIndex = 20;
@@ -247,7 +250,7 @@
             // 
             // btnQ
             // 
-            btnQ.Location = new Point(447, 278);
+            btnQ.Location = new Point(389, 369);
             btnQ.Name = "btnQ";
             btnQ.Size = new Size(75, 42);
             btnQ.TabIndex = 19;
@@ -257,7 +260,7 @@
             // 
             // btnE
             // 
-            btnE.Location = new Point(447, 182);
+            btnE.Location = new Point(632, 221);
             btnE.Name = "btnE";
             btnE.Size = new Size(75, 42);
             btnE.TabIndex = 18;
@@ -267,7 +270,7 @@
             // 
             // btnX
             // 
-            btnX.Location = new Point(528, 326);
+            btnX.Location = new Point(551, 417);
             btnX.Name = "btnX";
             btnX.Size = new Size(75, 42);
             btnX.TabIndex = 25;
@@ -277,7 +280,7 @@
             // 
             // btnL
             // 
-            btnL.Location = new Point(528, 230);
+            btnL.Location = new Point(389, 321);
             btnL.Name = "btnL";
             btnL.Size = new Size(75, 42);
             btnL.TabIndex = 24;
@@ -287,7 +290,7 @@
             // 
             // btnR
             // 
-            btnR.Location = new Point(528, 278);
+            btnR.Location = new Point(470, 369);
             btnR.Name = "btnR";
             btnR.Size = new Size(75, 42);
             btnR.TabIndex = 23;
@@ -297,7 +300,7 @@
             // 
             // btnF
             // 
-            btnF.Location = new Point(528, 182);
+            btnF.Location = new Point(308, 273);
             btnF.Name = "btnF";
             btnF.Size = new Size(75, 42);
             btnF.TabIndex = 22;
@@ -307,7 +310,7 @@
             // 
             // btnZ
             // 
-            btnZ.Location = new Point(204, 374);
+            btnZ.Location = new Point(470, 465);
             btnZ.Name = "btnZ";
             btnZ.Size = new Size(75, 42);
             btnZ.TabIndex = 26;
@@ -317,7 +320,7 @@
             // 
             // btnY
             // 
-            btnY.Location = new Point(123, 374);
+            btnY.Location = new Point(632, 417);
             btnY.Name = "btnY";
             btnY.Size = new Size(75, 42);
             btnY.TabIndex = 27;
@@ -325,11 +328,33 @@
             btnY.UseVisualStyleBackColor = true;
             btnY.Click += ObterPalpite;
             // 
+            // imagemForca
+            // 
+            imagemForca.Image = Properties.Resources.corpoInteiro;
+            imagemForca.Location = new Point(12, 137);
+            imagemForca.Name = "imagemForca";
+            imagemForca.Size = new Size(290, 385);
+            imagemForca.SizeMode = PictureBoxSizeMode.Zoom;
+            imagemForca.TabIndex = 29;
+            imagemForca.TabStop = false;
+            // 
+            // botaoReset
+            // 
+            botaoReset.Location = new Point(604, 166);
+            botaoReset.Name = "botaoReset";
+            botaoReset.Size = new Size(126, 44);
+            botaoReset.TabIndex = 30;
+            botaoReset.Text = "Recomecar";
+            botaoReset.UseVisualStyleBackColor = true;
+            botaoReset.Click += botaoReset_Click;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(800, 630);
+            Controls.Add(botaoReset);
+            Controls.Add(imagemForca);
             Controls.Add(btnY);
             Controls.Add(btnZ);
             Controls.Add(btnX);
@@ -359,6 +384,7 @@
             Controls.Add(caixaPalavra);
             Name = "Form1";
             Text = "Form1";
+            ((System.ComponentModel.ISupportInitialize)imagemForca).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -393,5 +419,7 @@
         private Button btnF;
         private Button btnZ;
         private Button btnY;
+        private PictureBox imagemForca;
+        private Button botaoReset;
     }
 }
